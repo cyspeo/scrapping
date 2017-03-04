@@ -1,0 +1,55 @@
+<div class="panel panel-primary ">
+    <div class="panel-heading">
+        <div class="row">
+            <div class="col-xs-1">
+                <i class="fa fa-file-o fa-5x"></i>
+            </div>
+            <div class="col-xs-6 fa-5x">
+                <span class="huge">Programme du {{ctrl.datejour | date:'dd-MM-yyyy'}}</span>
+                <button type="button" class="btn btn-default btn-xs" ng-click="ctrl.openCalendar()" uib-datepicker-popup="dd.MM.yyyy" ng-model="ctrl.datejour"
+                    is-open="ctrl.isCalendarOpen" datepicker-options="ctrl.dateOptions" show-button-bar="false" close-text="Close"
+                    alt-input-formats="altInputFormats"><i class="glyphicon glyphicon-calendar"></i></button>
+            </div>
+
+        </div>
+    </div>
+    <div class="panel-body bloc">
+        <div class="row">
+            <nvd3 class="chart-nb-course" options="ctrl.bulletChartOptions" data="ctrl.bulletChartData"></nvd3>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <uib-accordion close-others="oneAtATime">
+                    <div uib-accordion-group class="panel-default" ng-repeat="reunion in ctrl.item.reunions">
+                        <uib-accordion-heading>
+                            <span class="badge" ng-bind="reunion.numero"></span> {{reunion.ville}} <span>{{::reunion.courses.length}} courses, dont </span><span>{{::reunion.coursesGagnees}} gagnée</span>
+                        </uib-accordion-heading>
+                        <ul class="list-group">
+                            <li href="" class="list-group-item" ng-repeat="course in reunion.courses | orderBy: 'nom'">
+                                <h4 class="list-group-item-heading">{{::course.nom}} - {{::course.heure}}
+                                    <div class="dropdown pull-right">
+                                        <span class="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="material-icons">more_horiz</i></span>
+                                        <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dLabel">
+                                            <li><a href="" ng-click="ctrl.getCote(course.date,course.nom)">get cote</a></li>
+                                            <li><a href="" ng-click="ctrl.getResultat(course.date,course.nom)">get résultat</a></li>
+                                        </ul>
+                                    </div>
+                                </h4>
+                                <div>
+                                    <span>Cotes: </span> <span ng-repeat="cheval in course.chevaux | orderBy: 'cote'"> <strong>{{cheval.numero}}</strong>/{{cheval.cote}} </span>
+                                </div>
+                                <div>
+                                    <span ng-if="!course.majcote"> en attente</span>
+                                    <span ng-if="course.majcote"> pari : {{::course.pari.type}} - {{::course.pari.numero}} - {{::course.pari.valeur}}€</span>
+                                    <span ng-if="course.majcote"> cote={{course.pari.meilleurCote}} </span>
+                                    <span> arrivée : {{course.arrivee[0]}} {{course.arrivee[1]}} {{course.arrivee[2]}} {{course.arrivee[3]}} {{course.arrivee[4]}}</span>
+                                    <span ng-show="course.gagnee" style="color:#00CC00;">gagnée<span> 
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </uib-accordion>
+    </div>
+</div>
+       </div>
+      </div>

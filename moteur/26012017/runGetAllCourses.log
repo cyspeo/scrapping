@@ -1,0 +1,1113 @@
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R1/C1
+2: ./26012017/pages/R1C1.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R1C1
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R1C1.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R1C1.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R1C1.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R1/C2
+2: ./26012017/pages/R1C2.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R1C2
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R1C2.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R1C2.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R1C2.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R1/C3
+2: ./26012017/pages/R1C3.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R1C3
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R1C3.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R1C3.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R1C3.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R1/C4
+2: ./26012017/pages/R1C4.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R1C4
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R1C4.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R1C4.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R1C4.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R1/C5
+2: ./26012017/pages/R1C5.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R1C5
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R1C5.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R1C5.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R1C5.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R1/C6
+2: ./26012017/pages/R1C6.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R1C6
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R1C6.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R1C6.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R1C6.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R1/C7
+2: ./26012017/pages/R1C7.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R1C7
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R1C7.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R1C7.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R1C7.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R1/C8
+2: ./26012017/pages/R1C8.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R1C8
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R1C8.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R1C8.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R1C8.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R2/C1
+2: ./26012017/pages/R2C1.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R2C1
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R2C1.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R2C1.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R2C1.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R2/C2
+2: ./26012017/pages/R2C2.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R2C2
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R2C2.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R2C2.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R2C2.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R2/C3
+2: ./26012017/pages/R2C3.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R2C3
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R2C3.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R2C3.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R2C3.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R2/C4
+2: ./26012017/pages/R2C4.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R2C4
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R2C4.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R2C4.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R2C4.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R2/C5
+2: ./26012017/pages/R2C5.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R2C5
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R2C5.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R2C5.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R2C5.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R3/C1
+2: ./26012017/pages/R3C1.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R3C1
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R3C1.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R3C1.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R3C1.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R3/C2
+2: ./26012017/pages/R3C2.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R3C2
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R3C2.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R3C2.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R3C2.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R3/C3
+2: ./26012017/pages/R3C3.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R3C3
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R3C3.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R3C3.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R3C3.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R3/C4
+2: ./26012017/pages/R3C4.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R3C4
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R3C4.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R3C4.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R3C4.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R3/C5
+2: ./26012017/pages/R3C5.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R3C5
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R3C5.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R3C5.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R3C5.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R3/C6
+2: ./26012017/pages/R3C6.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R3C6
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R3C6.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R3C6.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R3C6.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R3/C7
+2: ./26012017/pages/R3C7.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R3C7
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R3C7.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R3C7.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R3C7.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R3/C8
+2: ./26012017/pages/R3C8.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R3C8
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R3C8.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R3C8.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R3C8.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R3/C9
+2: ./26012017/pages/R3C9.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R3C9
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R3C9.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R3C9.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R3C9.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R4/C1
+2: ./26012017/pages/R4C1.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R4C1
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R4C1.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R4C1.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R4C1.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R4/C2
+2: ./26012017/pages/R4C2.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R4C2
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R4C2.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R4C2.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R4C2.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R4/C3
+2: ./26012017/pages/R4C3.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R4C3
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R4C3.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R4C3.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R4C3.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R4/C4
+2: ./26012017/pages/R4C4.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R4C4
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R4C4.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R4C4.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R4C4.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R4/C5
+2: ./26012017/pages/R4C5.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R4C5
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R4C5.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R4C5.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R4C5.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R4/C6
+2: ./26012017/pages/R4C6.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R4C6
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R4C6.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R4C6.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R4C6.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R4/C7
+2: ./26012017/pages/R4C7.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R4C7
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R4C7.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R4C7.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R4C7.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R5/C1
+2: ./26012017/pages/R5C1.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R5C1
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R5C1.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R5C1.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R5C1.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R5/C2
+2: ./26012017/pages/R5C2.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R5C2
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R5C2.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R5C2.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R5C2.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R5/C3
+2: ./26012017/pages/R5C3.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R5C3
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R5C3.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R5C3.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R5C3.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R5/C4
+2: ./26012017/pages/R5C4.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R5C4
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R5C4.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R5C4.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R5C4.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R5/C5
+2: ./26012017/pages/R5C5.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R5C5
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R5C5.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R5C5.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R5C5.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R5/C6
+2: ./26012017/pages/R5C6.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R5C6
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R5C6.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R5C6.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R5C6.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R5/C7
+2: ./26012017/pages/R5C7.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R5C7
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R5C7.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R5C7.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R5C7.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R5/C8
+2: ./26012017/pages/R5C8.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R5C8
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R5C8.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R5C8.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R5C8.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R6/C2
+2: ./26012017/pages/R6C2.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R6C2
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R6C2.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R6C2.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R6C2.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R6/C3
+2: ./26012017/pages/R6C3.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R6C3
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R6C3.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R6C3.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R6C3.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R6/C4
+2: ./26012017/pages/R6C4.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R6C4
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R6C4.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R6C4.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R6C4.json
+3: ../storage/courses
+doc inserted
+
+
+*** getPage ***
+0: getPage.js
+1: http://www.pmu.fr/turf/26012017/R6/C5
+2: ./26012017/pages/R6C5.html
+Status: success
+Start check visibility 
+ elem ok [object Object]
+getPage 
+getPage exit fine!
+
+*** CrawlCourse ***
+0: crawlCourse.js
+1: 26012017
+2: R6C5
+url =/home/guillaume/Codiad/workspace/scrapping/moteur/26012017/pages/R6C5.html
+url jquery=/home/guillaume/Codiad/workspace/scrapping/moteur/lib/jquery.min.js
+output file=./26012017/data/R6C5.json
+Status: success
+Jquery injected: 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/insertDB.js
+2: ./26012017/data/R6C5.json
+3: ../storage/courses
+doc inserted
+ 
+ 
+ *** buildPlannif *** 
+0: /usr/bin/nodejs
+1: /home/guillaume/Codiad/workspace/scrapping/moteur/buildPlannif.js
+2: 26012017
+course N° R4C7
+course N° R6C3
+course N° R4C6
+course N° R2C1
+course N° R6C4
+course N° R6C5
+course N° R1C2
+course N° R2C2
+course N° R5C5
+course N° R4C2
+course N° R3C9
+course N° R2C4
+course N° R3C5
+course N° R5C3
+course N° R3C4
+course N° R4C4
+course N° R5C8
+course N° R3C3
+course N° R4C3
+course N° R4C5
+course N° R5C6
+course N° R3C1
+course N° R3C7
+course N° R1C4
+course N° R3C8
+course N° R5C4
+course N° R1C8
+course N° R2C3
+course N° R4C1
+course N° R6C2
+course N° R1C1
+course N° R5C7
+course N° R1C7
+course N° R1C6
+course N° R3C6
+course N° R5C2
+course N° R1C3
+course N° R3C2
+course N° R1C5
+course N° R5C1
+course N° R2C5

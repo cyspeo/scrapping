@@ -1,0 +1,45 @@
+<div class="row " >
+    <section id="programme" class="col-xs-12 col-md-6 " ng-include="'programme/programme.html'" ng-controller="programmeControleur as ctrl">      
+    </section>
+    <section id="rapports" class="col-xs-12 col-md-6 " ng-include="'rapport/rapport.html'" ng-controller="rapportControleur as ctrl">      
+    </section>
+</div>
+<div class="row horizontal-scroll" data-spy="scroll" data-target=".dashboard-nav">
+    <section id="notes" class="col-xs-12 col-md-6 ">
+      <div class="panel panel-primary ">
+        <div class="panel-heading">
+          <div class="row">
+              <div class="col-xs-1">
+                  <i class="fa fa-file-o fa-5x"></i>
+              </div>
+              <div class="col-xs-6 fa-5x">
+                  <span class="huge">Diagramme</span>
+              </div>
+
+          </div>
+        </div>
+          <div class="panel-body bloc">
+              toto
+              
+          </div>
+      </div>
+    </section>
+    <section id="afaire" class="col-xs-12 col-md-6 ">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <div class="row">
+              <div class="col-xs-1">
+                  <i class="fa fa-tasks fa-5x"></i>
+              </div>
+              <div class="col-xs-6 fa-5x text-right">
+                  <span class="huge">Histogramme</span>
+              </div>
+
+          </div>
+        </div>
+          <div class="panel-body bloc">
+              <div class="tasks"></div>
+          </div>
+      </div>
+    </section>
+</div>

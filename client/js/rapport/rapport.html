@@ -1,0 +1,39 @@
+<div class="panel panel-primary ">
+    <div class="panel-heading">
+        <div class="row">
+            <div class="col-xs-1">
+                <i class="fa fa-file-o fa-5x"></i>
+            </div>
+            <div class="col-xs-6 fa-5x">
+                <span class="huge">Rapports sur les 10 dernier jours</span>
+            </div>
+
+        </div>
+    </div>
+    <div class="panel-body bloc">
+        <div class="row">
+            <div class="col-md-12">
+                <!--
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <span class="badge">{{ctrl.item.solde}}</span> Solde
+                    </li>
+                    <li class="list-group-item">
+                        <span class="badge">{{ctrl.item.rapportDuJour}}</span> Rapport du jour
+                    </li>
+                    <li class="list-group-item">
+                        <span class="badge">{{ctrl.item.miseDuJour}}</span> Mise du jour
+                    </li>
+
+                </ul>
+                -->
+                <nvd3 options="ctrl.optionHisto" data="ctrl.histo" class="with-3d-shadow with-transitions"></nvd3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <nvd3 options="ctrl.optionSolde" data="ctrl.solde" class="with-3d-shadow with-transitions"></nvd3>
+            </div>
+        </div>
+    </div>
+</div>
