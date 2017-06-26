@@ -15,4 +15,4 @@ then
      echo "<date>= date de la course au format JJMMAAAA"
      echo "<course> = reference de la course au format RxCx"
   fi
-phantomjs getPage.js $1 ./$2/pages/$3.html  && phantomjs crawlCourse.js $2  $3  && node insertDB.js ./$2/data/$3.json ../storage/courses
+phantomjs getPage.js $1 ./$2/pages/$3.html  &&

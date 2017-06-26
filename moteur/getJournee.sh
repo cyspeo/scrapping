@@ -17,18 +17,15 @@ phantomjs getPage.js http://www.pmu.fr/turf/$datejour ./$datejour/pages/$datejou
 rc=$?; if [[ $rc != 0 ]]; then echo 'Error on getPage';  exit $rc; fi
 
 echo '*** Crawl journee ' $datejour
-phantomjs crawlReunion.js $datejour
-rc=$?; if [[ $rc != 0 ]]; then echo 'Error on crawlReunion';  exit $rc; fi
+node crawlJournee.js $datejour
+rc=$?; if [[ $rc != 0 ]]; then echo 'Error on crawlJournee';  exit $rc; fi
 
-echo '*** insertion en base '
-node insertDB.js ./$datejour/data/$datejour.json ../storage/reunions
-rc=$?; if [[ $rc != 0 ]]; then echo 'Error on insertDB';  exit $rc; fi
 
-echo '*** run Crawl courses'
-chmod +x ./runGetAllCourses.sh
-./runGetAllCourses.sh > $datejour/runGetAllCourses.log
+#echo '*** run Crawl courses'
+#chmod +x ./runGetAllCourses.sh
+#./runGetAllCourses.sh > $datejour/runGetAllCourses.log
 
-at 9:30 tomorrow <<< "./getJournee.sh"
+#at 9:30 tomorrow <<< "./getJournee.sh"
 
  
 

@@ -14,6 +14,7 @@ var express = require('express')
 var jwt = require('jsonwebtoken'); // used to create, sign, and verify tokens
 var config = require('./config'); // get our config file    
 var morgan = require('morgan');
+var scrap = require('./lib/scrap.js');
 
 var STORAGE_DIR = "../storage";
 
@@ -222,7 +223,31 @@ app.get('/api/programme/:date', function (req, res) {
 });
 
 
-app.post('/api/get-cote', function (req, res) {
+app.post('/api/crawlReunion', function (req, res) {
+	console.log(`Starting directory: ${process.cwd()}`);
+	try {
+  		process.chdir('../moteur');
+  		console.log(`New directory: ${process.cwd()}`);
+	}
+	catch (err) {
+  		console.log(`chdir: ${err}`);
+	}
+	//process.chdir(path.resolve(__dirname + "../moteur/"));
+	console.log("api/get-cote jour="+req.body.jour+" course="+req.body.course);
+    child_process.exec('./getJournee.sh ' + req.body.course + ' ' + req.body.jour, function (error, stdout, stderr) {
+    	if (error) {
+            console.error(`exec error: ${error}`);
+        }
+        console.log(`stdout: ${stdout}`);
+        console.log(`stderr: ${stderr}`);
+		process.chdir('../server');
+		//crawl course
+		scrap.scrapCourse('../moteur/'+req.body.jour+'/pages/'+req.body.course+'.html',req.body.jour,req.body.course);
+		res.send({success:true,message:"Recupèration cote terminé", stdout:stdout, stderr: stderr});
+    });
+});
+
+app.post('/api/crawlCourse', function (req, res) {
 	console.log(`Starting directory: ${process.cwd()}`);
 	try {
   		process.chdir('../moteur');
@@ -240,6 +265,8 @@ app.post('/api/get-cote', function (req, res) {
         console.log(`stdout: ${stdout}`);
         console.log(`stderr: ${stderr}`);
 		process.chdir('../server');
+		//crawl course
+		scrap.scrapCourse('../moteur/'+req.body.jour+'/pages/'+req.body.course+'.html',req.body.jour,req.body.course);
 		res.send({success:true,message:"Recupèration cote terminé", stdout:stdout, stderr: stderr});
     });
 });

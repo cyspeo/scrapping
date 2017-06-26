@@ -8,12 +8,15 @@ if (args.length !== 3) {
   console.log('args = ' + args);
   console.log('Usage : phantomjs getPage.js <url> <output file>');
   phantom.exit();
+} else {
+	console.log('in getPage.js '+ args[1] + ' ' + args[2] );
 }
 
 var url = args[1];
 var path = args[2];
 
 phantom.onError = function(msg, trace) {
+	console.log("onError");
   var msgStack = ['PHANTOM ERROR: ' + msg];
   if (trace && trace.length) {
     msgStack.push('TRACE:');
@@ -24,34 +27,43 @@ phantom.onError = function(msg, trace) {
   console.error(msgStack.join('\n'));
   phantom.exit(1);
 };
+page.onError = function(msg, trace) {
+	if (msg.indexOf("_oEa") === -1) {
+		console.log("page ERROR : " + msg);
+		phantom.exit(1);
+	}
+};
+page.onConsoleMessage = function(msg, lineNum, sourceId) {
+  console.log('CONSOLE: ' + msg + ' (from line #' + lineNum + ' in "' + sourceId + '")');
+};
 
 
 page.open(url, function(status) {
-  //console.log("Status: " + status);
+  console.log("Status: " + status);
 });
 
 
 setTimeout(function() {
-	//console.log("Start check visibility ");
+	console.log("Start check visibility ");
 	var getPage = (function() {
-		//console.log("getPage ");
+		console.log("get HTML ");
     	var html = page.evaluate(function () {
          	return document.getElementsByTagName('html')[0].outerHTML;
     	});
     	if(html) {
-    		//page.render('screenshot.jpeg');
+    		page.render('screenshot.jpeg');
         	//console.log(html);
         	fs.write(path, html, 'w');
     	}
     	console.log("getPage exit fine!")
-    	phantom.exit();
+    	phantom.exit(0);
 	});
 	
 	var elem = page.evaluate(function() {
 		return document.getElementsByClassName('hippodrome-libelle');	
 	});	
 	if (elem) {
-		//console.log(" elem ok "+ elem);
+		console.log(" elem ok "+ elem);
 		getPage();
 	} else {
 		console.log(" elem ko ");

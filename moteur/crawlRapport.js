@@ -106,7 +106,7 @@ $(".rapports-probables-table tbody tr").each(function (index, obj) {
     }
    }
 });
-}
+} //fin if termine
 //console.log("course="+JSON.stringify(course));
 fs.writeFileSync(output, JSON.stringify(courseCrawled),'utf8');
 //console.log("crawlRapport exit fine!")
