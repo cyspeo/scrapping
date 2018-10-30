@@ -1,9 +1,0 @@
-Usage getJournee.sh <date> au format JJMMSSAA
-Execution avec la date du jourdate jour
-date jour= 14032017
-pwd= /home/guillaume/monturf/moteur
-***Recuperation journee  14032017
-in getPage.js http://www.pmu.fr/turf/14032017 ./14032017/pages/14032017.html
-Status: success
-./getJournee.sh: line 16: 24033 Killed                  phantomjs getPage.js http://www.pmu.fr/turf/$datejour ./$datejour/pages/$datejour.html
-Error on getPage
